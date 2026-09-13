@@ -30,4 +30,4 @@ public:
 
 //Важный момент: для max_sum и curr_sum используем именно double, а не int или long long, потому что:
 //при типе данных int мы рискуем переполнить переменные (пример: max_sum += INT_MAX, max_sum += INT_MAX)
-//double, а не long, чтобы проще вернуть вещественную max_average без использования static_cast<double> и тп
+//double, а не long, чтобы проще вернуть вещественную max_average без использования static_cast<double> и тп.
