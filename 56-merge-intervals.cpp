@@ -18,9 +18,6 @@ private:
     };
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        //Оптимизируем ввод для оптимизации работы алгоритма (в рамках задачи допустимо)
-        ios::sync_with_stdio(0);
-        cin.tie(0);
 
         //Сразу проверим содержательность массива, чтобы в случае чего не проходиться по всему алгоритму
         if (intervals.empty()) return {};
